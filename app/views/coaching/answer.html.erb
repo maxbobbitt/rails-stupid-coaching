@@ -1,5 +1,9 @@
 <h1>Coaching#answer</h1>
-<%= params[:question] %>
-<p>Find me in app/views/coaching/answer.html.erb</p>
+<p>Here is your question:</p>
+<%= @question %>
+<!-- <p>Find me in app/views/coaching/answer.html.erb</p> -->
+<p> Here is the coach's answer</p>
+
+<%= @answer %>
 
 <%= link_to "Ask me something else", ask_path %>
